@@ -22,15 +22,15 @@ $(function(){
 
     });
 
-});
 
 //表示させる関数
 function showContent(data){
     // $('#container').append(data);
 
-    for(var cnt=0; cnt <data.length; cnt++){
+    for(var cnt=0; cnt <　data.length; cnt++){
+
+        //米倉さんのすんでいる場所は川崎市です
         $('#container li').eq(cnt).text(data[cnt.name]);
-
     }
-
 }
+});
