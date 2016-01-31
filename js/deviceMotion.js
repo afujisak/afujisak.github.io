@@ -13,7 +13,7 @@ $(function(){
         $('#device li').eq(2).text('加速度z: ' + z);
     }
 
-    if(Math.abs(x) >15 || Math.abs(y) > 15 || Math.abs(z)){
+    if(Math.abs(x) > 15 || Math.abs(y) > 15 || Math.abs(z) > 15){
         $('#result').text('振ったよ');
 
     }
