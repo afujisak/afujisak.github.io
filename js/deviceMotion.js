@@ -10,7 +10,7 @@ $(function(){
 
         $('#device li').eq(0).text('加速度x: ' + x);
         $('#device li').eq(1).text('加速度x: ' + y);
-        $('#device li').eq(2).text('加速度x: ' + z);        
+        $('#device li').eq(2).text('加速度x: ' + z);
     }
 
 });
