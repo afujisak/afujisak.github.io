@@ -29,8 +29,8 @@ function showContent(data){
 
     for(var cnt=0; cnt <　data.length; cnt++){
 
-        //米倉さんのすんでいる場所は川崎市です
-        $('#container li').eq(cnt).text(data[cnt].name);
+        //米倉さんの住んでいる場所は川崎市です
+        $('#container li').eq(cnt).text(data[cnt].name+'さんの住んでいる場所は'+data[cnt].adress+'です');
     }
 }
 
