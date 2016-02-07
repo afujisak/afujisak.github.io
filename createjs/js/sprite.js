@@ -45,7 +45,7 @@ $(function(){
         }
 
         //カルシウム
-        var caSprite = new createjs.SpriteSheet(caluciumSprite);
+        var caSprite = new createjs.SpriteSheet(CaluciumSprite);
         var calucium = new createjs.Sprite(caSprite,'stand');
         stage.addChild(calucium);
         calucium.x = 30;
