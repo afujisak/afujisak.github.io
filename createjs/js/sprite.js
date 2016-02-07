@@ -31,7 +31,7 @@ $(function(){
         vitaminC.y = 400;
         vitaminC.alpha = 0;
 
-        var calucium = new createjs.Sprite(calucium,'stand');
+        var calucium = new createjs.Sprite(vcSprite,'stand');
         stage.addChild(calucium);
         calucium.x = 50
         calucium.y = 200
