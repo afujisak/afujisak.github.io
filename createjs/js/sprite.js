@@ -44,24 +44,25 @@ $(function(){
         vitaminC.gotoAndPlay('stand');
         }
 
-        //カルシウム
-        var caSprite = new createjs.SpriteSheet(CaluciumSprite);
-        var calucium = new createjs.Sprite(caSprite,'stand');
-        stage.addChild(calucium);
-        calucium.x = 30;
-        calucium.y = 480;
-        calucium.alpha = 0;
-
-
-        createjs.Tween.get(calucium).to({aplpha:1},500).wait(2000).call(caluciumwalk).to({x:500},4000).call(caluciumStand);
-        //カルシウムが歩く
-        function caluciumwalk(){
-        calucium.gotoAndPlay('walk');
+        // スプライトシートの設定
+        var irSprite = new createjs.SpriteSheet(ironSprite);
+        // スプライトの設定
+        var iron = new createjs.Sprite(irSprite,'stand');
+        stage.addChild(iron);
+        iron.x = 30;
+        iron.y = 480;
+        iron.alpha = 0;
+        // アニメーション
+        createjs.Tween.get(iron).wait(500).to({alpha:1},500).wait(1000).call(ironWalk).to({x:600},4000).call(ironStand);
+        // ビタミンCが歩く
+        function ironWalk(){
+          iron.gotoAndPlay('walk');
         }
-        //カルシウムが止まる
-        function caluciumStand(){
-        calucium.gotoAndPlay('stand');
+        // ビタミンCが止まる
+        function ironStand(){
+          iron.gotoAndPlay('stand');
         }
+
 
         stage.update();
 
