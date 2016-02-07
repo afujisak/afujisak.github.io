@@ -2,7 +2,7 @@
 var manifest = [
     {src:'img/tomato.png'},
     {src:'img/pumpkin.png'},
-    {src:'img/greenpepper.png'}
+    {src:'img/hourensou.png'}
 ];
 
 $(function(){
@@ -16,7 +16,16 @@ $(function(){
 
     loadQueue.addEventListener('complete', function(){
         console.log('読み込み完了！');
+        showVege();
     });
+
+    function showVege(){
+        var tomato = new createjs.Bitmap(manifest[0],src);
+        tomato.x = 100;
+        tomato.y = 100;
+        stage.addChild(tomato);
+    }
+
 
     //1秒間に何コマ動くかの指定（フレームレート）
     createjs.Ticker.setFPS(30);
