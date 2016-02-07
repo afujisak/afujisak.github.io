@@ -14,7 +14,7 @@ $(function(){
     var loadQueue = new createjs.LoadQueue();
     loadQueue.loadManifest(manifest);//読み込み開始
 
-    loadQueue.addEventListener('complete',function(){//読み込みスタート
+    loadQueue.addEventListener('complete', function(){
         console.log('読み込み完了！');
     });
 
