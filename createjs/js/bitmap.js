@@ -11,13 +11,13 @@ $(function(){
     var stage = new createjs.Stage('canvasEL');
 
     //loadQueue（ローディングの仕組みの設定）
-    var loadQueue = new createjs.loadQueue();
+    var loadQueue = new createjs.LoadQueue();
     loadQueue.loadManifest(manifest);//読み込み開始
 
     loadQueue.addEventListener('complete',function(){//読み込みスタート
         console.log('読み込み完了！');
     });
-    
+
     //1秒間に何コマ動くかの指定（フレームレート）
     createjs.Ticker.setFPS(30);
     //無駄な稼働をさせないための指定
