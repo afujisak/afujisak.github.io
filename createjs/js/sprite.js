@@ -33,16 +33,13 @@ $(function(){
 
         var calucium = new createjs.Sprite(vcSprite,'stand');
         stage.addChild(calucium);
-        calucium.x = 50
-        calucium.y = 200
+        calucium.x = 80;
+        calucium.y = 200;
         calucium.alpha = 0;
 
 
-        //アニメーション
+        //ビタミンCのアニメーション
         createjs.Tween.get(vitaminC).to({alpha:1},500).wait(1000).call(vitaminCwalk).to({x:500},4000).call(vitaminCStand);
-
-        createjs.Tween.get(calucium).to({aplpha:1},500).wait(2000).call(caluciumwalk).to({x:500},4000).call(caluciumStand);
-
         //ビタミンCが歩く
         function vitaminCwalk(){
         vitaminC.gotoAndPlay('walk');
@@ -52,6 +49,8 @@ $(function(){
         vitaminC.gotoAndPlay('stand');
         }
 
+        //カルシウムのアニメーション
+        createjs.Tween.get(calucium).to({aplpha:1},500).wait(2000).call(caluciumwalk).to({x:500},4000).call(caluciumStand);
         //カルシウムが歩く
         function caluciumwalk(){
         calucium.gotoAndPlay('walk');
