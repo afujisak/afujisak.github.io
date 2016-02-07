@@ -39,6 +39,10 @@ $(function(){
 
     };
 
+    loadQueue.addEventListener('progress',function(evt){
+        console.log(evt.progress); //読み込み状況 0～1
+    });
+
 
     //1秒間に何コマ動くかの指定（フレームレート）
     createjs.Ticker.setFPS(30);
