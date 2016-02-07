@@ -39,7 +39,6 @@ $(function(){
 
     loadQueue.addEventListener('progress',function(evt){
         console.log(evt.progress); //読み込み状況 0～1（ローディング）
-        )
     });
 
 
