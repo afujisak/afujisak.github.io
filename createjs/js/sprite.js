@@ -41,20 +41,22 @@ $(function(){
         //アニメーション
         createjs.Tween.get(vitaminC).to({alpha:1},500).wait(1000).call(vitaminCwalk).to({x:500},4000).call(vitaminCStand);
 
-        createjs.Tween.get(calucium).to({aplpha:1},500).wait(2000).call(caluciumwalk).to({x:500},4000).call(caluciumStand)
+        createjs.Tween.get(calucium).to({aplpha:1},500).wait(2000).call(caluciumwalk).to({x:500},4000).call(caluciumStand);
 
         //ビタミンCが歩く
         function vitaminCwalk(){
         vitaminC.gotoAndPlay('walk');
         }
-        function caluciumwalk(){
-        calucium.gotoAndPlay('walk');
-        }
-
         //ビタミンCが止まる
         function vitaminCStand(){
         vitaminC.gotoAndPlay('stand');
         }
+
+        //カルシウムが歩く
+        function caluciumwalk(){
+        calucium.gotoAndPlay('walk');
+        }
+        //カルシウムが止まる
         function caluciumStand(){
         calucium.gotoAndPlay('stand');
         }
