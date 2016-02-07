@@ -24,7 +24,19 @@ $(function(){
         tomato.x = 100;
         tomato.y = 100;
         stage.addChild(tomato);
-    }
+
+        stage.apdate();
+
+    };
+    function showVege(){
+        var pumpkin = new createjs.Bitmap(manifest[0],src);
+        pumpkin.x = 200;
+        pumpkin.y = 200;
+        stage.addChild(pumpkin);
+
+        stage.apdate();
+
+    };
 
 
     //1秒間に何コマ動くかの指定（フレームレート）
