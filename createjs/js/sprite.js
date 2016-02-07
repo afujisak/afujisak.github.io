@@ -44,9 +44,8 @@ $(function(){
         vitaminC.gotoAndPlay('stand');
         }
 
-        //カルシウムのアニメーション
+        //カルシウム
         var caSprite = new createjs.SpriteSheet(caluciumSprite);
-
         var calucium = new createjs.Sprite(caSprite,'stand');
         stage.addChild(calucium);
         calucium.x = 30;
