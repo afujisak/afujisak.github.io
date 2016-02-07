@@ -25,7 +25,6 @@ $(function(){
     function showVege(){
         //スプライトシートの設定
         var vcSprite = new createjs.SpriteSheet(vitaminCSprite);
-        var CaSprite = new createjs.SpriteSheet(CalciumSprite);
 
         //スプライトの設定
         var vitaminC = new createjs.Sprite(vcSprite,'stand');
@@ -33,13 +32,6 @@ $(function(){
         vitaminC.x = 150;
         vitaminC.y = 400;
         vitaminC.alpha = 0;
-
-        var calucium = new createjs.Sprite(CaSprite,'stand');
-        stage.addChild(calucium);
-        calucium.x = 80;
-        calucium.y = 200;
-        calucium.alpha = 0;
-
 
         //ビタミンCのアニメーション
         createjs.Tween.get(vitaminC).to({alpha:1},500).wait(1000).call(vitaminCwalk).to({x:500},4000).call(vitaminCStand);
@@ -53,6 +45,15 @@ $(function(){
         }
 
         //カルシウムのアニメーション
+        var caSprite = new createjs.SpriteSheet(caluciumSprite);
+
+        var calucium = new createjs.Sprite(caSprite,'stand');
+        stage.addChild(calucium);
+        calucium.x = 30;
+        calucium.y = 480;
+        calucium.alpha = 0;
+
+
         createjs.Tween.get(calucium).to({aplpha:1},500).wait(2000).call(caluciumwalk).to({x:500},4000).call(caluciumStand);
         //カルシウムが歩く
         function caluciumwalk(){
