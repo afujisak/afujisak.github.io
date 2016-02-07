@@ -20,7 +20,7 @@ $(function(){
     });
 
     function showVege(){
-        var tomato = new createjs.Bitmap(manifest[0],src);
+        var tomato = new createjs.Bitmap(manifest[0].src);
         tomato.x = 100;
         tomato.y = 100;
         stage.addChild(tomato);
@@ -29,7 +29,7 @@ $(function(){
 
     };
     function showVege(){
-        var pumpkin = new createjs.Bitmap(manifest[0],src);
+        var pumpkin = new createjs.Bitmap(manifest[0].src);
         pumpkin.x = 200;
         pumpkin.y = 200;
         stage.addChild(pumpkin);
