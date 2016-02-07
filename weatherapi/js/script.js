@@ -31,7 +31,7 @@ $(function(){
 
             //地域名
             var areaName = data.name;
-            &('#areaName').text(areaName);
+            $('#areaName').text(areaName);
 
         }
 
