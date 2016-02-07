@@ -25,10 +25,6 @@ $(function(){
         tomato.y = 100;
         stage.addChild(tomato);
 
-        stage.apdate();
-
-    };
-    function showVege(){
         var pumpkin = new createjs.Bitmap(manifest[0].src);
         pumpkin.x = 200;
         pumpkin.y = 200;
