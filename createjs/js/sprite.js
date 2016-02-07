@@ -25,7 +25,7 @@ $(function(){
     function showVege(){
         //スプライトシートの設定
         var vcSprite = new createjs.SpriteSheet(vitaminCSprite);
-        var VcSprite = new createjs.SpriteSheet(CalciumSprite);
+        var CaSprite = new createjs.SpriteSheet(CalciumSprite);
 
         //スプライトの設定
         var vitaminC = new createjs.Sprite(vcSprite,'stand');
@@ -34,7 +34,7 @@ $(function(){
         vitaminC.y = 400;
         vitaminC.alpha = 0;
 
-        var calucium = new createjs.Sprite(vcSprite,'stand');
+        var calucium = new createjs.Sprite(CaSprite,'stand');
         stage.addChild(calucium);
         calucium.x = 80;
         calucium.y = 200;
