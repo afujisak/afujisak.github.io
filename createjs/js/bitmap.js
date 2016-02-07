@@ -30,7 +30,7 @@ $(function(){
         pumpkin.y = 200;
         stage.addChild(pumpkin);
 
-        stage.apdate();
+        stage.update();
 
     };
 
