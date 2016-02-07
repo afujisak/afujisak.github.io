@@ -2,7 +2,10 @@
 var manifest = [
     {src:'img/calcium.png'},
     {src:'img/iron.png'},
-    {src:'img/vitaminC.png'}
+    {src:'img/vitaminC.png'},
+    {src:'img/header.png'},
+    {src:'img/ground.png'},
+    {src:'img/logo.png'},
 ];
 
 $(function(){
