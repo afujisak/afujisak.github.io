@@ -242,6 +242,7 @@ footer{
     height: 170px;
 }
 footer ul{
+    margin-top:50px 100px;
     overflow: hidden;
 }
 footer li{
