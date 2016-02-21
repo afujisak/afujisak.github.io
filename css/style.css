@@ -85,9 +85,6 @@ nav li a:visited span{
     height: 15px;
     line-height:1.2;
 }
-/*nav li a:hover span{
-    color:#333;
-}*/
 nav li.current{
     border-bottom: 2px #ff66cc solid;
 }
@@ -192,7 +189,6 @@ nav li.current{
     top:2500px;
     left: 0;
 }
-
 h2{
     margin-top:50px;
     margin-bottom:40px;
