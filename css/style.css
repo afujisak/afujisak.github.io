@@ -241,8 +241,10 @@ footer{
     background-color: #99cc33;
     height: 170px;
 }
+fotter inner{
+    margin:50px 100px;
+}
 footer ul{
-    margin-top:50px 100px;
     overflow: hidden;
 }
 footer li{
