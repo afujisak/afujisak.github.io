@@ -247,7 +247,7 @@ footer ul{
 footer li{
     float: left;
     width: 100px;
-    margin:50 107px;
+    margin:0 auto;
     display:block;
     list-style-type: none;
     text-align:center;
