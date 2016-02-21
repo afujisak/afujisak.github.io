@@ -252,6 +252,11 @@ footer li{
     display:block;
     list-style-type: none;
     text-align:center;
+    padding:15px;
+}
+footer li:last-child{
+    float:right;
+    margin:0;
 }
 footer ul a:link,footer ul a:visited{
     text-decoration: none;
