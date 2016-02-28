@@ -8,17 +8,18 @@
 </head>
 <body>
 
+
     <header>
         <nav>
             <div class="inner">
                 <ul>
                     <div id="hidari">
                         <li class="current"><a href=search.html>ハーブティを探す<span>Search</span></a></li>
-                        <li id=><a href=naketea.html>ハーブティのおいしい淹れ方<span>How to make tea</span></a></li>
+                        <li id=><a href=naketea.html>おいしい淹れ方<span>How to make tea</span></a></li>
                     </div>
                     <div id="migi">
                         <li><a href=drinknote.html>飲み方と注意点<span>Drink an Note</span></a></li>
-                        <li><a href=strage.html>ハーブティの保管方法<span>Storage</span></a></li>
+                        <li><a href=strage.html>保管方法<span>Storage</span></a></li>
                     </div>
                 </ul>
             </div>
@@ -31,74 +32,91 @@
         <h3>ハーブティを探す</h3>
     </div>
     <!--midashiの終わり-->
-    <div id="navigation">
-        <ul id="koumoku">
-            <li>心の悩みに効く</li>
-            <li>身体の悩みに効く</li>
-            <li>女性の悩みに効く</li>
-            <li>その他</li>
-        </ul>
-        <ul id="kokoro">
-			<li>ストレス・イライラ</li>
-			<li>不眠</li>
-			<li>やる気・疲れ</li>
-			<li>集中力アップ</li>
-		</ul>
-        <ul id="karada">
-			<li>頭痛</li>
-			<li>胃の調子が悪い</li>
-			<li>風邪・インフルエンザ</li>
-			<li>高血圧</li>
-            <li>関節痛</li>
-            <li>便秘</li>
-            <li>貧血</li>
-            <li>肝臓</li>
-		</ul>
-        <ul id="woman">
-			<li>肌荒れ</li>
-			<li>ニキビ</li>
-			<li>しみ・くすみ</li>
-			<li>生理通</li>
-            <li>冷え性</li>
-            <li>更年期障害</li>
-            <li>妊娠中</li>
-            <li>授乳中</li>
-		</ul>
-        <ul id="other">
-			<li>夏バテ</li>
-			<li>二日酔い</li>
-		</ul>
+    <div id="container">
+        <div class="inner">
+            <ul id="menu">
+                    <li>
+                        <img src="img/search/kokoro.png" onmouseover="this.src='img/search/kokoro_hover.png'" onmouseout="this.src='img/search/kokoro.png'" />
+                        <!-- 心の悩み
+                        <img src="img/search/arrow-pink.png" alt=""> -->
+                        <ul class="submenu">
+                            <li id="stress"></a>ストレス・イライラ</li>
+                            <li id="sleepless">不眠</li>
+                            <li id="motivation">やる気・疲れ</li>
+                            <li id="concentrate">集中力アップ</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <img src="img/search/karada.png" onmouseover="this.src='img/search/karada_hover.png'" onmouseout="this.src='img/search/karada.png'" />
+                        <!-- 体の悩み
+                        <img src="img/search/arrow-pink.png" alt=""> -->
+                        <ul class="submenu">
+                			<li id="headache">頭痛</li>
+                			<li id="stomach">胃の調子が悪い</li>
+                			<li id="CC">風邪・インフルエンザ</li>
+                			<li id="HP">高血圧</li>
+                            <li id="joint">関節痛</li>
+                            <li id="constipation">便秘</li>
+                            <li id="anemia">貧血</li>
+                            <li id="liver">肝臓</li>
+                		</ul>
+                    </li>
+                    <li>
+                        <img src="img/search/women.png" onmouseover="this.src='img/search/women_hover.png'" onmouseout="this.src='img/search/women.png'" />
+                        <!-- 女性の悩み
+                        <img src="img/search/arrow-pink.png" alt=""> -->
+                        <ul class="submenu">
+                			<li id="skin">肌荒れ</li>
+                			<li id="acne">ニキビ</li>
+                			<li id="blot">しみ・くすみ</li>
+                			<li id="menstrual">生理通</li>
+                            <li id="cold">冷え性</li>
+                            <li id="menopause">更年期障害</li>
+                            <li id="breast">授乳中</li>
+                		</ul>
+                    </li>
+                    <li>
+                        <img src="img/search/other.png" onmouseover="this.src='img/search/other_hover.png'" onmouseout="this.src='img/search/other.png'" />
+                        <!-- その他の悩み
+                        <img src="img/search/arrow-pink.png" alt=""> -->
+                        <ul class="submenu">
+                    		<li id="summer">夏バテ</li>
+                    		<li id="hangover">二日酔い</li>
+                    	</ul>
+                    </li>
+            </div>
+            <!--menuの終わり-->
+            <div id="herbtea">
+                    <a href=""><img src="img/search/eyebright.png" alt="" id="eyebright"></a>
+                    <a href=""><img src="img/search/echina.png" alt="" id="echina" id="echina"></a>
+                    <a href=""><img src="img/search/elder.png" alt="" id="elder"></a>
+                    <a href=""><img src="img/search/calen.png" alt="" id="calent"></a>
+                    <a href=""><img src="img/search/camomail.png" alt="" id="camomail"></a>
+                    <a href=""><img src="img/search/tanpopo.png" alt="" id="tanpopo"></a>
+                    <a href=""><img src="img/search/nettle.png" alt="" id="nettle"></a>
+                    <a href=""><img src="img/search/haibisu.png" alt="" id="haibisu"></a>
+                    <a href=""><img src="img/search/peparmint.png" alt="" id="peparmint"></a>
+                    <a href=""><img src="img/search/mate.png" alt="" id="mate"></a>
+                    <a href=""><img src="img/search/mallow.png" alt="" id="mallow"></a>
+                    <a href=""><img src="img/search/yallow.png" alt="" id="yallow"></a>
+                    <a href=""><img src="img/search/ravender.png" alt="" id="ravender"></a>
+                    <a href=""><img src="img/search/rinden.png" alt="" id="rinden"></a>
+                    <a href=""><img src="img/search/ruibos.png" alt="" id="ruibos"></a>
+                    <a href=""><img src="img/search/remongrass.png" alt="" id="remongrass"></a>
+                    <a href=""><img src="img/search/remonbarm.png" alt="" id="emonbarm"></a>
+                    <a href=""><img src="img/search/remonbarvena.png" alt="" id="remonbarvena"></a>
+                    <a href=""><img src="img/search/rosehip.png" alt="" id="rosehip"></a>
+                    <a href=""><img src="img/search/rosemary.png" alt="" id="rosemary"></a>
+            </div>
+            <!--herbteaの終わり-->
+        </div>
+        <!--innerの終わり-->
+        <img src="img/search/green_silhouette.png" alt="" id="herb_sil">
     </div>
-    <!--navigationの終わり-->
-<div id="herbtea">
-    <div id="inner">
-
-    <a href=""><img src="img/search/eyebright.png" alt=""></a>
-    <a href=""><img src="img/search/echina.png" alt=""></a>
-    <a href=""><img src="img/search/elder.png" alt=""></a>
-    <a href=""><img src="img/search/calen.png" alt=""></a>
-    <a href=""><img src="img/search/camomail.png" alt=""></a>
-    <a href=""><img src="img/search/tanpopo.png" alt=""></a>
-    <a href=""><img src="img/search/nettle.png" alt=""></a>
-    <a href=""><img src="img/search/haibisu.png" alt=""></a>
-    <a href=""><img src="img/search/peparmint.png" alt=""></a>
-    <a href=""><img src="img/search/mate.png" alt=""></a>
-    <a href=""><img src="img/search/mallow.png" alt=""></a>
-    <a href=""><img src="img/search/yallow.png" alt=""></a>
-    <a href=""><img src="img/search/ravender.png" alt=""></a>
-    <a href=""><img src="img/search/rinden.png" alt=""></a>
-    <a href=""><img src="img/search/ruibos.png" alt=""></a>
-    <a href=""><img src="img/search/remongrass.png" alt=""></a>
-    <a href=""><img src="img/search/remonbarm.png" alt=""></a>
-    <a href=""><img src="img/search/remonbarvena.png" alt=""></a>
-    <a href=""><img src="img/search/rosehip.png" alt=""></a>
-    <a href=""><img src="img/search/rosemary.png" alt=""></a>
-    </div>
-</div>
-<!--herbteaの終わり-->
+    <!--containerの終わり-->
 
 <footer>
-    <div class="inner">
+    <div class="inner2">
         <ul>
             <li><a href="">参考文献</a></li>
             <li><a href="">お問い合わせ</a></li>
@@ -109,8 +127,10 @@
             <p>Copyright @ Cherry Light Cafe All Right Reserved</p>
         </div>
 </footer>
-
 <script src="js/jquery-2.2.0.min.js"></script>
-<script src="js/category.js"></script>
+<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/search.js"></script>
+
 </body>
 </html>

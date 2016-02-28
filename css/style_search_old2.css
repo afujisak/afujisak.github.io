@@ -87,52 +87,76 @@ h1{
 #midashi{
     clear:both;
 }
-#container{
-    margin:50px auto;
+#navigation{
+    margin:0 auto;
+    height: 500px;
+    overflow:hidden;
+}
+.category{
+    height: 500px;
+}
+.category{
     position:relative;
-}
-#menu{
     text-align:center;
-    height: 1400px;
 }
-
-#menu li{
-    width: 255px;
-    float:left;
-    position: relative;
+.category ul li{
+    overflow:hidden;
     border-bottom:2px #99cc33 solid;
-    display: block;
+    float:left;
+    width: 255px;
+    height: 50px;
     line-height: 50px;
 }
-/*#menu img{
+/*.nayami{
+    position:relative;
+}
+.nayami img{
     position:absolute;
     top:80%;
     left:50%;
-    margin-left:-6px;
+    margin-left:-10px;
 }*/
-#menu li:hover{
-    border-bottom:2px #ff66cc solid;
-    background-color:#99cc33;
+.category ul li:hover{
+    /*background-color:#99cc33;/*ホバー時の親メニューの背景色*/*/
     /*color:#fff;*/
 }
-
-.submenu{
-    display:none;
+.category ul li ul{
+    clear:both;
+    text-align: center;
+    background-color:rgba(153,204,51,0.55);
     position: absolute;
-    background-color: rgba(153,204,51,0.55);
-    z-index:100;
+    top: 50px;/*親メニューの高さと同じにする*/
+    width: 255px;
+    z-index: 100;
 }
-.submenu li{
-    height: 50px;
-    line-height:50px;
-    border-bottom: 2px rgba(255,255,255,0.55) solid;
-    display: block;
+.category ul li ul li{
+    visibility: hidden;
+    overflow: hidden;
+    width: 255px;/*サブメニューの幅*/
+    height: 0;
+    border-bottom:2px #fff solid;
+    background-color:rgba(153,204,51,0.55);/*サブメニューの背景色*/
+    opacity:0.5%;
 }
-.submenu li:hover{
-    background-color:#99cc33;
+.category ul li ul li:hover{
+    background-color:rgba(153,204,51,0.55);/*ホバー時のサブメニューの背景色*/*/
+    color:#333333;
 }
-
+.category ul li:hover ul li{
+    visibility: visible;
+    overflow: visible;
+    height:50px;/*サブメニューの高さ*/
+    z-index: 10;
+}
+.category * {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
 h2{
+    margin-top:30px;
     margin-bottom:5px;
     text-align:center;
     font-size:30px;
@@ -143,38 +167,8 @@ h3{
     margin-bottom:30px;
     text-align:center;
 }
-.j-textWithImage figure {
-  z-index: 0 !important;
-}
-#herbtea{
-    clear:both;
-    position:absolute;
-    top:70px;
-    left:50%;
-    margin-left:-510px;
-    /*overflow: hidden;*/
-}
-/*#herbtea a{
-    float:left;
-    width: 255px;
-    height: 255px;
-}*/
-#herbtea img{
-    margin:auto 6.5px;
-    /*display:block;*/
-}
-#herb_sil{
-    position:absolute;
-    top:1470px;
-    margin-top:100px;
-}
-.inner2{
-    width: 950px;
-    margin:0 auto;
-    overflow: hidden;
-}
+
 footer{
-    clear:both;
     background-color: #99cc33;
     height: 170px;
 }
@@ -190,6 +184,10 @@ footer li{
     display:inline;
     list-style-type: none;
     padding:15px;
+}
+footer li:last-child{
+    float:right;
+    margin:0;
 }
 footer ul a:link,footer ul a:visited{
     text-decoration: none;

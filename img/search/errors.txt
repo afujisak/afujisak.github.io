@@ -1,0 +1,1 @@
+[Tue Feb 23 2016 11:52:39 GMT+0900 (東京 (標準時))] layer "sankaku.png のコピー": Expected end of input but "\u306E" found.
