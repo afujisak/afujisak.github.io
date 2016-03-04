@@ -66,9 +66,6 @@ nav li a:visited span{
     height: 15px;
     line-height:1.2;
 }
-nav li.current{
-    border-bottom: 2px #ff66cc solid;
-}
 h1{
     position:absolute;
     width: 151px;
@@ -84,93 +81,115 @@ h1{
     width: 430px;
     float:right;
 }
-#midashi{
-    clear:both;
-}
-#navigation{
-    margin:0 auto;
-    height: 500px;
-    overflow:hidden;
-}
-.category{
-    height: 500px;
-}
-.category{
-    position:relative;
-    text-align:center;
-}
-.category ul li{
-    overflow:hidden;
-    border-bottom:2px #99cc33 solid;
-    float:left;
-    width: 255px;
-    height: 50px;
-    line-height: 50px;
-}
-/*.nayami{
-    position:relative;
-}
-.nayami img{
-    position:absolute;
-    top:80%;
-    left:50%;
-    margin-left:-10px;
-}*/
-.category ul li:hover{
-    /*background-color:#99cc33;/*ホバー時の親メニューの背景色*/*/
-    /*color:#fff;*/
-}
-.category ul li ul{
-    clear:both;
-    text-align: center;
-    background-color:rgba(153,204,51,0.55);
-    position: absolute;
-    top: 50px;/*親メニューの高さと同じにする*/
-    width: 255px;
-    z-index: 100;
-}
-.category ul li ul li{
-    visibility: hidden;
-    overflow: hidden;
-    width: 255px;/*サブメニューの幅*/
-    height: 0;
-    border-bottom:2px #fff solid;
-    background-color:rgba(153,204,51,0.55);/*サブメニューの背景色*/
-    opacity:0.5%;
-}
-.category ul li ul li:hover{
-    background-color:rgba(153,204,51,0.55);/*ホバー時のサブメニューの背景色*/*/
-    color:#333333;
-}
-.category ul li:hover ul li{
-    visibility: visible;
-    overflow: visible;
-    height:50px;/*サブメニューの高さ*/
-    z-index: 10;
-}
-.category * {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-h2{
-    margin-top:30px;
-    margin-bottom:5px;
-    text-align:center;
-    font-size:30px;
-    color:#ff66cc;
-    font-family:'Libre Baskerville',serif;
-}
-h3{
-    margin-bottom:30px;
-    text-align:center;
+.pankuzu ol li {
+    /* liを横並び＆ブレットを消す */
+    display: inline;
+    list-style-type: none;
 }
 
+.pankuzu ol li a {
+    /* aの背景画像に記号の画像を指定 */
+    background-image: url(../img/herbtea/ar.png);
+
+    /* 右寄せ＆リピート無し */
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    text-decoration:none;
+}
+.pankuzu ol li:first-child{
+    margin-left:110px;
+}
+.pankuzu ol li a:hover{
+    color:#99cc33;
+}
+#container{
+    position:relative;
+}
+#gaiyou{
+    height: 460px;
+}
+
+#dry{
+    position:absolute;
+    top:70px;
+    left:-100px;
+    width: 370px;
+    height: 370px;
+
+}
+#tea{
+    position:absolute;
+    top:70px;
+    right:-100px;
+    width: 382px;
+    height: 382px;
+}
+h2{
+    font-size:28px;
+    text-align:center;
+    color:#333333;
+    margin-top:50px;
+    margin-bottom:25px;
+}
+h3{
+    font-size:20px;
+    text-align:center;
+    color:#333333;
+    margin-bottom:25px;
+}
+#nickname{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: -1px -1px #333,
+    1px -1px #333,
+    -1px 1px #333,
+    1px 1px #333;
+    margin-bottom:25px;
+}
+#gaiyou table {
+    margin:25px auto;
+}
+#gaiyou td{
+    padding:5px;
+}
+#syousai{
+    overflow:hidden;
+}
+#syousai table{
+    width: 480px;
+    margin:25px 10px;
+    float:left;
+}
+#syousai th{
+    width: 165px;
+    background-color:#99cc33;
+    border:1px dotted #333;
+    color:#333;
+    padding:10px;
+}
+#syousai td{
+    width: 360px;
+    border:1px dotted #333;
+    padding:10px;
+}
+#herb_sil{
+    position:absolute;
+    top:780px;
+    margin-top:60px;
+    z-index:-1;
+}
+.inner2{
+    width: 950px;
+    margin:0 auto;
+    overflow: hidden;
+}
 footer{
+    clear:both;
     background-color: #99cc33;
     height: 170px;
+    margin-top:180px;
 }
 footer ul{
     overflow: hidden;
@@ -184,10 +203,6 @@ footer li{
     display:inline;
     list-style-type: none;
     padding:15px;
-}
-footer li:last-child{
-    float:right;
-    margin:0;
 }
 footer ul a:link,footer ul a:visited{
     text-decoration: none;
