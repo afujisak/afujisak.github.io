@@ -127,7 +127,7 @@ nav li.current{
     top:3px;
     left: 210px;
     margin:0 auto;
-    z-index:-5;
+    z-index:-1;
 }
 #flower4{
     position:absolute;
@@ -151,17 +151,19 @@ nav li.current{
     position:absolute;
     top:420px;
     right: 0;
-    z-index:-9
+    z-index:-9;
 }
 #mallow{
     position:absolute;
     top:680px;
     left:0px;
+
 }
 #orange{
     position:absolute;
     top:760px;
     right:0px;
+
 }
 #teapot{
     position:absolute;
