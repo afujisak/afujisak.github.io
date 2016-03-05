@@ -23,12 +23,12 @@ a:hover{
     color:#333333;
 }
 header{
-    height: 165px;
+    height: 102px;
+    background-color:#99cc33;
     position:relative;
 }
 nav{
     height: 100px;
-    background-color:#99cc33;
     position: relative;
 }
 nav ul{
@@ -73,9 +73,10 @@ h1{
     position:absolute;
     width: 151px;
     height: 154px;
-    top:12px;
+    top:2px;
     left:50%;
     margin-left:-76px;
+    z-index:10;
 }
 #hidari{
     width: 430px;
@@ -86,11 +87,13 @@ h1{
 }
 #container{
     clear:both;
-    position:relative;
+    margin-bottom:50px;
 }
 #midashi{
     text-align:center;
     margin-bottom:80px;
+    line-height: 2.4;
+
 }
 h2{
     margin-top:40px;
@@ -134,16 +137,17 @@ h4{
     margin:0 auto;
     overflow: hidden;
 }
-#herb_sil{
-    position:absolute;
-    top:2460px;
-    margin-top:100px;
-    z-index:-1;
-}
 footer{
     clear:both;
     background-color: #99cc33;
     height: 170px;
+    position:relative;
+}
+#herb_sil{
+    margin:0;
+    position:absolute;
+    top:-180px;
+    left:0;
 }
 footer ul{
     overflow: hidden;
@@ -165,4 +169,5 @@ footer ul a:link,footer ul a:visited{
     clear:both;
     text-align: center;
     color:#FFFFFF;
+    font-size:11px;
 }
