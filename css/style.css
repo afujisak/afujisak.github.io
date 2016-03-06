@@ -41,9 +41,11 @@ h1{
 }
 .herb{
     position:absolute;
-    width: 1415px;
-    height: 250px;
+    width: 1316px;
+    height: 271px;
     top:330px;
+    left:50%;
+    margin-left:-658px;
     z-index:2;
 }
 nav{
@@ -159,23 +161,27 @@ nav li.current{
     position:absolute;
     top:680px;
     left:0px;
+    z-index:1;
 
 }
 #orange{
     position:absolute;
     top:760px;
     right:0px;
+    z-index:1;
 
 }
 #teapot{
     position:absolute;
     top:1650px;
     left:0px;
+    z-index:3;
 }
 #spoon1{
     position:absolute;
     top:1700px;
     right: 0;
+    z-index:3;
 }
 #spoon2{
     position:absolute;
@@ -217,11 +223,18 @@ h3 a:hover{
     color:#99cc33;
 }
 #makeTea{
-    height: 800px;
+    height: 820px;
     background-color: #ffcc00;
+    position:relative;
 }
 #herb_sil{
-    margin:0;
+    position:absolute;
+    width: 1316px;
+    height: 271px;
+    top:650px;
+    left:50%;
+    margin-left:-658px;
+    z-index:1;
 }
 #makemore{
     margin-bottom:0px;

@@ -167,10 +167,13 @@ footer{
     position:relative;
 }
 #herb_sil{
-    margin:0;
     position:absolute;
-    top:-160px;
-    left:0;
+    width: 1316px;
+    height: 271px;
+    top:-170px;
+    left:50%;
+    margin-left:-658px;
+    z-index:-1;
 }
 footer ul{
     overflow: hidden;
