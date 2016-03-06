@@ -105,7 +105,6 @@ h1{
 #menu li:hover{
     border-bottom:2px #ff66cc solid;
     background-color:#99cc33;
-    /*color:#fff;*/
 }
 
 .submenu{
@@ -122,6 +121,7 @@ h1{
 }
 .submenu li:hover{
     background-color:#99cc33;
+    color:#fff;
 }
 #midashi{
     clear:both;
@@ -149,16 +149,11 @@ h3{
     top:70px;
     left:50%;
     margin-left:-510px;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
-/*#herbtea a{
-    float:left;
-    width: 255px;
-    height: 255px;
-}*/
 #herbtea img{
     margin:auto 6.5px;
-    /*display:block;*/
+    float:left;
 }
 .inner2{
     width: 950px;
@@ -174,7 +169,7 @@ footer{
 #herb_sil{
     margin:0;
     position:absolute;
-    top:-180px;
+    top:-160px;
     left:0;
 }
 footer ul{

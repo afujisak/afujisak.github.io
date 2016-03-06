@@ -70,9 +70,10 @@ h1{
     position:absolute;
     width: 151px;
     height: 154px;
-    top:12px;
+    top:2px;
     left:50%;
     margin-left:-76px;
+    z-index:10;
 }
 #hidari{
     width: 430px;
@@ -174,12 +175,6 @@ h3{
     border:1px dotted #333;
     padding:10px;
 }
-#herb_sil{
-    position:absolute;
-    top:780px;
-    margin-top:60px;
-    z-index:-1;
-}
 .inner2{
     width: 950px;
     margin:0 auto;
@@ -187,9 +182,16 @@ h3{
 }
 footer{
     clear:both;
+    position:relative;
     background-color: #99cc33;
     height: 170px;
     margin-top:180px;
+}
+#herb_sil{
+    margin:0;
+    position:absolute;
+    top:-160px;
+    left:0;
 }
 footer ul{
     overflow: hidden;
