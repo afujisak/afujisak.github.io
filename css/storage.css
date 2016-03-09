@@ -1,5 +1,5 @@
 body{
-    font-family:  "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
+    font-family:"游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
     font-size: 14px;
     line-height: 2.4;
     overflow-x: hidden;
@@ -31,6 +31,7 @@ header{
 nav{
     height: 100px;
     position: relative;
+    font-family:  "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
 }
 nav ul{
     overflow: hidden;
@@ -90,6 +91,9 @@ h1{
     clear:both;
     position:relative;
 }
+#midashi{
+    height: 550px;
+}
 h2{
     margin-top:40px;
     font-size:30px;
@@ -102,6 +106,7 @@ h3{
     margin-bottom:40px;
     text-align:center;
     font-size:16px;
+    font-family:  "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
 }
 h4{
     font-weight:bold;
@@ -109,12 +114,12 @@ h4{
     text-align:center;
 }
 .green-scrolling-bg{
-    height: 600px;
+    height: 640px;
     background-color:#99cc33;
     min-height: 100%;
 }
 .white-fixed-bg{
-    height: 600px;
+    height: 640px;
     min-height: 100%;
     background-size: cover;
     background-attachment: fixed;

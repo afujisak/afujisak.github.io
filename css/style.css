@@ -1,7 +1,7 @@
 body{
-    font-family:  "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
+    font-family:"游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 2.4;
     overflow-x: hidden;
 }
 
@@ -52,6 +52,7 @@ nav{
     height: 100px;
     background:#99cc33;
     position: relative;
+    font-family:  "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
 
 }
 nav ul{
@@ -109,6 +110,7 @@ nav li.current{
     background-color: #99cc33;
     border:2px #99cc33 solid;
     overflow: hidden;
+    line-height:1.5;
 }
 .more a:hover{
     color:#333;
@@ -133,8 +135,8 @@ nav li.current{
 }
 #flower4{
     position:absolute;
-    top:780px;
-    left:210px;
+    top:890px;
+    left:250px;
     margin:0 auto;
     z-index:2;
 }
@@ -159,48 +161,48 @@ nav li.current{
 }
 #mallow{
     position:absolute;
-    top:680px;
+    top:780px;
     left:0px;
     z-index:1;
 
 }
 #orange{
     position:absolute;
-    top:760px;
+    top:800px;
     right:0px;
     z-index:1;
 
 }
 #teapot{
     position:absolute;
-    top:1650px;
+    top:1900px;
     left:0px;
     z-index:3;
 }
 #spoon1{
     position:absolute;
-    top:1700px;
+    top:2050px;
     right: 0;
     z-index:3;
 }
 #spoon2{
     position:absolute;
-    top:1740px;
+    top:2100px;
     right: 0;
 }
 #ginger{
     position:absolute;
-    top:2250px;
+    top:2600px;
     left: 0;
 }
 #bottle{
     position:absolute;
-    top:2400px;
+    top:2850px;
     right: 0;
 }
 #bouquet{
     position:absolute;
-    top:2500px;
+    top:3000px;
     left: 0;
 }
 h2{
@@ -211,10 +213,11 @@ h2{
     font-family:'Libre Baskerville',serif;
 }
 h3{
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top:20px;
+    margin-bottom:20px;
     text-align:center;
     font-size:16px;
+    font-family:  "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
 }
 h3 a{
     text-decoration: none;
@@ -222,8 +225,11 @@ h3 a{
 h3 a:hover{
     color:#99cc33;
 }
+h4{
+    text-align:center;
+}
 #makeTea{
-    height: 820px;
+    height: 920px;
     background-color: #ffcc00;
     position:relative;
 }
@@ -231,7 +237,7 @@ h3 a:hover{
     position:absolute;
     width: 1316px;
     height: 271px;
-    top:650px;
+    top:740px;
     left:50%;
     margin-left:-658px;
     z-index:1;
@@ -243,7 +249,7 @@ h3 a:hover{
 .dry{
     float:left;
     width: 200px;
-    margin:50px 18px;
+    margin:50px 25px;
 }
 .dry:last-child{
     float: right;
@@ -253,10 +259,14 @@ h3 a:hover{
     margin:0 auto;
 }
 .dry p{
-    font-size: 12px;
-    text-align: left;
+    font-size: 14px;
+    text-align: center;
 }
-
+.inner2{
+    width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
 #DrinkAndNote{
     clear:both;
     overflow:hidden;
@@ -264,24 +274,24 @@ h3 a:hover{
 footer{
     background-color: #99cc33;
     height: 170px;
+    line-height:1.5;
 }
 footer ul{
     overflow: hidden;
-    margin:50px 277px;
+    margin:50px 175px;
     text-align:center;
 }
 footer li{
     float: left;
-    width: 100px;
-    margin:0 auto;
+    width: 200px;
     display:inline;
     list-style-type: none;
-    padding:15px;
+    /*padding:15px;*/
 }
-footer li:last-child{
+/*footer li:last-child{
     float:right;
     margin:0;
-}
+}*/
 footer ul a:link,footer ul a:visited{
     text-decoration: none;
 }
@@ -290,4 +300,5 @@ footer ul a:link,footer ul a:visited{
     text-align: center;
     color:#FFFFFF;
     font-size:11px;
+    margin-top:80px;
 }

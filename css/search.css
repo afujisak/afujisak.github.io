@@ -104,19 +104,27 @@ h1{
 }
 #menu li:hover{
     border-bottom:2px #ff66cc solid;
-    background-color:#99cc33;
-}
+    /*background-color:rgba(153,204,51,0.8);*/
 
+}
+#menu img{
+    position:absolute;
+    width: 12px;
+    height: 8px;
+    top:38px;
+    left:50%;
+    margin-left:-6px;
+}
 .submenu{
     display:none;
     position: absolute;
-    background-color: rgba(153,204,51,0.55);
+    background-color: rgba(153,204,51,0.8);
     z-index:100;
 }
 .submenu li{
     height: 50px;
     line-height:50px;
-    border-bottom: 2px rgba(255,255,255,0.55) solid;
+    border-bottom: 2px rgba(255,255,255,0.8) solid;
     display: block;
 }
 .submenu li:hover{

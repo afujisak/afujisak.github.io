@@ -1,5 +1,5 @@
 body{
-    font-family:  "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
+    font-family: "ヒラギノ明朝 Pro W3","游明朝体", "Yu Mincho","ＭＳ Ｐ明朝", "MS PMincho", 'Libre Baskerville', serif;
     font-size: 14px;
     line-height: 1.5;
     overflow-x: hidden;
@@ -30,6 +30,7 @@ nav{
     height: 100px;
     background-color:#99cc33;
     position: relative;
+    font-family:
 }
 nav ul{
     overflow: hidden;
@@ -110,7 +111,10 @@ h1{
 #gaiyou{
     height: 460px;
 }
-
+#info{
+    line-height:2.4;
+    font-family:"游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+}
 #dry{
     position:absolute;
     top:70px;
@@ -162,17 +166,18 @@ h3{
     width: 480px;
     margin:25px 10px;
     float:left;
+    font-family:"游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
 }
 #syousai th{
     width: 165px;
     background-color:#99cc33;
-    border:1px dotted #333;
+    border:1px #ccc solid;
     color:#333;
     padding:10px;
 }
 #syousai td{
     width: 360px;
-    border:1px dotted #333;
+    border:1px #ccc solid;
     padding:10px;
 }
 .inner2{
@@ -186,6 +191,7 @@ footer{
     background-color: #99cc33;
     height: 170px;
     margin-top:180px;
+    font-family:"游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
 }
 #herb_sil{
     position:absolute;
@@ -216,4 +222,5 @@ footer ul a:link,footer ul a:visited{
     clear:both;
     text-align: center;
     color:#FFFFFF;
+    font-size:11px;
 }
