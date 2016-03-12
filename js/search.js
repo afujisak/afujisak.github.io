@@ -117,16 +117,18 @@ var data=[
         ]
     },
     {
-        "nayami":"liver",
+        "nayami":"kafun",
         "herb" :[
-            {"name":"#calen"},
-            {"name":"#tanpopo"},
-            {"name":"#nettle"},
-            {"name":"#haibisu"},
+            {"name":"#eyebright"},
+            {"name":"#echina"},
+            {"name":"#elder"},
+            {"name":"#camomail"},
+            {"name":"#nettele"},
+            {"name":"#mallow"},
             {"name":"#peparmint"},
-            {"name":"#remongrass"},
-            {"name":"#rosehip"},
-            {"name":"#rosemary"},
+            {"name":"#ravender"},
+            {"name":"#ruibos"},
+            {"name":"#remonbarm"}
         ]
     },
     {
