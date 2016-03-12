@@ -125,15 +125,18 @@ h4{
 }
 .white-fixed-bg.cd-bg-1{
     background-image: url("../img/drinknote/herbtea_bg2.jpeg");
-    max-width: 1400px;
+    /*max-width: 1400px;*/
+    background-position: center center, left top;
 }
 .white-fixed-bg.cd-bg-2{
     background-image: url("../img/drinknote/herbtea_bg5.jpg");
-    max-width: 1400px;
+    /*max-width: 1400px;*/
+    background-position: center center, left top;
 }
 .white-fixed-bg.cd-bg-3{
     background-image: url("../img/drinknote/herbtea_bg7.jpg");
-    max-width: 1400px;
+    /*max-width: 1400px;*/
+    background-position: center center, left top;
 }
 .inner2{
     width: 950px;
