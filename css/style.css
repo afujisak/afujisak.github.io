@@ -29,8 +29,10 @@ p { font-size : 10px ; }
 #mainVisual{
     position: relative;
     background-image:url(../img/main.jpg);
-    background-position: center center, left top;
-    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 600px;
     z-index:-1;
 }
 h1{
@@ -45,7 +47,7 @@ h1{
     position:absolute;
     width: 1316px;
     height: 271px;
-    top:330px;
+    top:420px;
     left:50%;
     margin-left:-658px;
     z-index:2;
