@@ -93,6 +93,7 @@ h1{
 }
 #midashi{
     height: 550px;
+    margin:auto;
 }
 h2{
     margin-top:40px;
@@ -125,10 +126,11 @@ h4{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+    margin:auto;
 }
 .white-fixed-bg.cd-bg-1{
     background-image: url("../img/storage/storage_05.jpg");
-    max-width: 1400px;
+    /*max-width: 1400px;*/
 }
 /*.white-fixed-bg.cd-bg-2{
     background-image: url("../img/storage/storage_08.jpg");
@@ -136,7 +138,7 @@ h4{
 }*/
 .white-fixed-bg.cd-bg-2{
     background-image: url("../img/storage/image2.jpg");
-    max-width: 1400px;
+    /*max-width: 1400px;*/
 }
 .inner2{
     width: 950px;
