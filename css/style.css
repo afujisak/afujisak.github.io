@@ -133,6 +133,13 @@ nav li.current{
     text-align:center;
     padding: 12px;
 }
+.frame{
+    width: 500px;
+    margin: 0 auto;
+}
+.frame p{
+    text-align: center;
+}
 #flower3{
     position:absolute;
     top:30px;
