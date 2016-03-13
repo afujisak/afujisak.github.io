@@ -145,15 +145,15 @@ nav li.current{
 #flower3{
     position:absolute;
     top:30px;
-    left: 210px;
-    margin:0 auto;
+    left:50%;
+    margin-left:-496px;
     z-index:-1;
 }
 #flower4{
     position:absolute;
     top:890px;
-    left:250px;
-    margin:0 auto;
+    left:50%;
+    margin-left:-410.5px;
     z-index:2;
 }
 #tea{
