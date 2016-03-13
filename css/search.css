@@ -166,9 +166,9 @@ h3 a:hover{
     left:50%;
     margin-left:-510px;
     float:left;
-    width: 950px;
+    width: 1020px;
     overflow: hidden;
-    z-index:-999;
+    z-index:10px;
 }
 #herbtea img{
     margin:auto 6.5px;
