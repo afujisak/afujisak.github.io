@@ -92,7 +92,7 @@ h1{
 }
 #menu{
     text-align:center;
-    height: 100px;
+    height: 1000px;
 }
 
 #menu li{
@@ -168,6 +168,7 @@ h3 a:hover{
     float:left;
     width: 950px;
     overflow: hidden;
+    z-index:-999;
 }
 #herbtea img{
     margin:auto 6.5px;
