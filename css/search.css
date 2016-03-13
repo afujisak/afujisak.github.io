@@ -88,10 +88,11 @@ h1{
 #container{
     margin:50px auto;
     position:relative;
+    height: 1500px;
 }
 #menu{
     text-align:center;
-    height: 1400px;
+    height: 100px;
 }
 
 #menu li{
@@ -159,15 +160,23 @@ h3 a:hover{
 }
 #herbtea{
     clear:both;
+    margin:auto 0;
     position:absolute;
     top:70px;
     left:50%;
     margin-left:-510px;
+    float:left;
+    width: 950px;
     overflow: hidden;
 }
 #herbtea img{
     margin:auto 6.5px;
     float:left;
+}
+.inner3{
+    width: 1200px;
+    margin:auto 0;
+    overflow: hidden;
 }
 .inner2{
     width: 950px;
