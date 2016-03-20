@@ -144,7 +144,7 @@ h4{
 }
 footer{
     clear:both;
-    background-color: #99cc33;
+    background-color:#99cc33;
     height: 170px;
     position:relative;
 }
@@ -176,7 +176,6 @@ footer ul a:link,footer ul a:visited{
 #copylight{
     clear:both;
     text-align: center;
-    color:#FFFFFF;
     font-size:11px;
 }
 .page_top{
