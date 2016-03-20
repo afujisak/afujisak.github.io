@@ -145,7 +145,7 @@ h4{
 footer{
     clear:both;
     background-color:#99cc33;
-    height: 170px;
+    height: 200px;
     position:relative;
 }
 #herb_sil{
@@ -177,6 +177,7 @@ footer ul a:link,footer ul a:visited{
     clear:both;
     text-align: center;
     font-size:11px;
+    color:#fff;
 }
 .page_top{
     position:fixed;
