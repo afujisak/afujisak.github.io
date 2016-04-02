@@ -45,8 +45,10 @@ h1{
 }
 .herb{
     position:absolute;
-    width: 1316px;
-    height: 271px;
+    /*width: 1316px;
+    height: 271px;*/
+    width: 100%;
+    height: 100%;
     top:420px;
     left:50%;
     margin-left:-658px;
